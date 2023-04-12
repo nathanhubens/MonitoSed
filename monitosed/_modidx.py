@@ -4,5 +4,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_baseurl': '/MonitoSed',
                 'doc_host': 'https://nathanhubens.github.io',
                 'git_url': 'https://github.com/nathanhubens/MonitoSed',
-                'lib_path': 'MonitoSed'},
-  'syms': {'MonitoSed.core': {'MonitoSed.core.foo': ('core.html#foo', 'MonitoSed/core.py')}}}
+                'lib_path': 'monitosed'},
+  'syms': {'monitosed.core': {'monitosed.core.test_data': ('core.html#test_data', 'monitosed/core.py')}}}
