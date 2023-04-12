@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "MonitoSed"
+  site-url: "https://nathanhubens.github.io/MonitoSed"
+  description: "A repo for MonitoSed"
+  repo-branch: main
+  repo-url: "https://github.com/nathanhubens/MonitoSed"
