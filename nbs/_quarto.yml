@@ -24,5 +24,6 @@ website:
         - section: classification
           contents:
           - 01_classification.core.ipynb
+          - 01b_classification.cnn.ipynb
 
 metadata-files: [nbdev.yml, sidebar.yml]
