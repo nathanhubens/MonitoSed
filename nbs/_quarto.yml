@@ -16,5 +16,13 @@ website:
     search: true
   sidebar:
     style: floating
+    contents: 
+        - section: data
+          contents: 
+          - 00_data.core.ipynb
+          - 00b_data.visualization.ipynb
+        - section: classification
+          contents:
+          - 01_classification.core.ipynb
 
 metadata-files: [nbdev.yml, sidebar.yml]
