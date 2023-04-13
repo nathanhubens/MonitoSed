@@ -3,10 +3,10 @@
 # %% auto 0
 __all__ = ['get_users_labels']
 
-# %% ../../nbs/01_classification.core.ipynb 2
+# %% ../../nbs/01_classification.core.ipynb 3
 import pandas as pd
 
-# %% ../../nbs/01_classification.core.ipynb 3
+# %% ../../nbs/01_classification.core.ipynb 4
 def get_users_labels(path, label_col='R_Pain_Int', drop_ixs=None):
     data = pd.read_excel(path)
     labels = data['R_Pain_Int'].dropna()

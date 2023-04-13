@@ -3,13 +3,13 @@
 # %% auto 0
 __all__ = ['plot_compare', 'plot_3d', 'plot_corr']
 
-# %% ../../nbs/00b_data.visualization.ipynb 3
+# %% ../../nbs/00b_data.visualization.ipynb 4
 import numpy as np
 import seaborn as sns
 import plotly.graph_objs as go
 from plotly import subplots
 
-# %% ../../nbs/00b_data.visualization.ipynb 7
+# %% ../../nbs/00b_data.visualization.ipynb 8
 def plot_compare(rest, vr):
     
     mean_rest = rest.mean(0)
@@ -36,7 +36,7 @@ def plot_compare(rest, vr):
     fig.update_yaxes(showticklabels=False)
     fig.show()
 
-# %% ../../nbs/00b_data.visualization.ipynb 9
+# %% ../../nbs/00b_data.visualization.ipynb 10
 def plot_3d(mat):
     
     mean_mat = mat.mean(0)
@@ -60,7 +60,7 @@ def plot_3d(mat):
 
     fig.show()
 
-# %% ../../nbs/00b_data.visualization.ipynb 11
+# %% ../../nbs/00b_data.visualization.ipynb 12
 def plot_corr(mat):
     mean_mat = mat.mean(0)
     correlations = np.corrcoef(mean_mat)
