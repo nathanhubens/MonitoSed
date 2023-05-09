@@ -30,7 +30,7 @@ def load_mats(path, max_len=None):
 # %% ../../nbs/00_data.core.ipynb 6
 new_rearrange = partial(rearrange, pattern='d0 d1 d2 -> (d0 d1) d2')
 
-# %% ../../nbs/00_data.core.ipynb 8
+# %% ../../nbs/00_data.core.ipynb 7
 def create_splits(mats, valid_pct=0.2):
     train_ix = int((1-valid_pct)*len(mats))
     read_mats = [read_data(mat) for mat in mats]
