@@ -21,9 +21,19 @@ website:
           contents: 
           - 00_data.core.ipynb
           - 00b_data.visualization.ipynb
+        - section: regression
+          contents:
+          - 01_regression.core.ipynb
+          - 01b_regression.cnn.ipynb
+          - 01c_regression.stagernet.ipynb
+        - section: generation
+          contents:
+          - 02_generation.core.ipynb
+          - 02b_generation.cnn.ipynb
+          - 02b_generation.cnn.transformer.ipynb
+          - 02c_generation.cnn.vr_rest.ipynb
         - section: classification
           contents:
-          - 01_classification.core.ipynb
-          - 01b_classification.cnn.ipynb
+          - 02_classification.cnn.ipynb
 
 metadata-files: [nbdev.yml, sidebar.yml]
