@@ -16,6 +16,7 @@ website:
     search: true
   sidebar:
     style: floating
+    collapse-level: 1
     contents: 
         - section: data
           contents: 
@@ -36,4 +37,4 @@ website:
           contents:
           - 02_classification.cnn.ipynb
 
-metadata-files: [nbdev.yml, sidebar.yml]
+metadata-files: [sidebar.yml]

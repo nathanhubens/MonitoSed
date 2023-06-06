@@ -1,8 +1,0 @@
-website:
-  sidebar:
-    contents:
-      - index.ipynb
-      - 00_data.core.ipynb
-      - 00b_data.visualization.ipynb
-      - 01_classification.core.ipynb
-      - 01b_classification.cnn.ipynb
