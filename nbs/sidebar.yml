@@ -1,0 +1,25 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_data.core_old.ipynb
+      - 00_data.ipynb
+      - 00b_data.visualization_old.ipynb
+      - 00c_models_old.ipynb
+      - 00d_losses_old.ipynb
+      - 01_models.ipynb
+      - 01_regression.core_old.ipynb
+      - 01b_regression.cnn_old.ipynb
+      - 01c_regression.stagernet_old.ipynb
+      - 02_generation.core_old.ipynb
+      - 02_preprocessing.ipynb
+      - 02b_generation.cnn-UNet_old.ipynb
+      - 02b_generation.cnn.transformer_ols.ipynb
+      - 02b_generation.cnn_old.ipynb
+      - 02c_generation.cnn.vr_rest_old.ipynb
+      - 03_classification.cnn_old.ipynb
+      - 03_utils.ipynb
+      - 04_training.ipynb
+      - 05a_Monitosed_EOEC.ipynb
+      - 05b_Monitosed.ipynb
+      - 05c_Monitosed_Explanations.ipynb

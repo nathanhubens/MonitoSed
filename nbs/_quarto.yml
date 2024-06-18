@@ -18,23 +18,26 @@ website:
     style: floating
     collapse-level: 1
     contents: 
+        - index.ipynb
         - section: data
           contents: 
-          - 00_data.core.ipynb
-          - 00b_data.visualization.ipynb
-        - section: regression
+          - 00_data.ipynb
+        - section: models
           contents:
-          - 01_regression.core.ipynb
-          - 01b_regression.cnn.ipynb
-          - 01c_regression.stagernet.ipynb
-        - section: generation
+          - 01_models.ipynb
+        - section: preprocessing
           contents:
-          - 02_generation.core.ipynb
-          - 02b_generation.cnn.ipynb
-          - 02b_generation.cnn.transformer.ipynb
-          - 02c_generation.cnn.vr_rest.ipynb
-        - section: classification
+          - 02_preprocessing.ipynb
+        - section: utils
           contents:
-          - 02_classification.cnn.ipynb
+          - 03_utils.ipynb
+        - section: training
+          contents:
+          - 04_training.ipynb
+        - section: tutorial
+          contents:
+          - 05a_Monitosed_EOEC.ipynb
+          - 05b_Monitosed.ipynb
+          - 05c_Monitosed_Explanations.ipynb
 
-metadata-files: [sidebar.yml]
+metadata-files: [nbdev.yml]
